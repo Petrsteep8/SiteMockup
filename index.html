@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>mattee - вакансии</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Onest:wght@400;500;600;800&display=swap">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="page">
+
+    <header class="topbar">
+      <a class="brand" href="/">mattee</a>
+      <nav class="menu" aria-label="Основная навигация">
+        <a href="#">Вакансии</a>
+        <a href="#">Работодателям</a>
+      </nav>
+      <a class="btn btn-primary" href="#">Опубликовать</a>
+    </header>
+
+    <section class="hero">
+      <i class="shape shape-pink" style="left:0;top:0;width:180px;height:92px;clip-path:polygon(0 0,100% 0,78% 100%,0 100%)"></i>
+      <i class="shape shape-sky"  style="left:-70px;top:70px;width:150px;height:150px;border-radius:50%"></i>
+      <i class="shape shape-mint" style="left:0;bottom:-20px;width:150px;height:105px;border-radius:20px 20px 0 0"></i>
+      <i class="shape shape-pink" style="left:190px;bottom:0;width:60px;height:80px;clip-path:polygon(40% 0,100% 100%,0 100%)"></i>
+      <i class="shape shape-mint" style="right:240px;top:-120px;width:200px;height:190px;border-radius:50%"></i>
+      <i class="shape shape-pink" style="right:6px;top:10px;width:150px;height:100px;border-radius:24px;transform:rotate(30deg)"></i>
+      <i class="shape shape-sky"  style="right:-30px;bottom:-130px;width:420px;height:260px;border-radius:50%;transform:rotate(-10deg)"></i>
+      <h1>Больше вакансий<br>в telegram-канале</h1>
+      <a class="btn btn-ink" href="#">Перейти в ТГ канал</a>
+    </section>
+
+    <main class="catalog">
+      <aside class="sidebar" aria-label="Фильтры">
+        <label class="field-search">
+          <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true">
+            <circle cx="11" cy="11" r="8"/><path d="m21 21-4.3-4.3"/>
+          </svg>
+          <input type="search" placeholder="Поиск" aria-label="Поиск вакансий">
+        </label>
+
+        <h4 class="sidebar-title">Формат</h4>
+        <div class="pills">
+          <button type="button" class="pill">Парт-тайм</button>
+          <button type="button" class="pill">Фулл-тайм</button>
+          <button type="button" class="pill">Стажировка</button>
+        </div>
+
+        <h4 class="sidebar-title">Формат</h4>
+        <div class="pills">
+          <button type="button" class="pill">Офис</button>
+          <button type="button" class="pill">Удаленно</button>
+          <button type="button" class="pill">Гибрид</button>
+        </div>
+
+        <h4 class="sidebar-title">Грейд</h4>
+        <div class="pills">
+          <button type="button" class="pill">Junior</button>
+          <button type="button" class="pill">Middle</button>
+          <button type="button" class="pill">Senior</button>
+          <button type="button" class="pill">Lead</button>
+          <button type="button" class="pill">Head</button>
+        </div>
+
+        <h4 class="sidebar-title">Локация</h4>
+        <div class="cities">
+          <label>Москва<input type="checkbox"></label>
+          <label>Санкт-Петербург<input type="checkbox"></label>
+          <label>Казань<input type="checkbox"></label>
+          <label>Нижний Новгород<input type="checkbox"></label>
+        </div>
+
+        <h4 class="sidebar-title">Зарплата</h4>
+        <div class="salary-row">
+          <input type="number" placeholder="Минимум" aria-label="Минимальная зарплата">
+          <input type="number" placeholder="Максимум" aria-label="Максимальная зарплата">
+        </div>
+      </aside>
+
+      <div class="jobs">
+
+        <article class="job-card">
+          <span class="badge">Новая</span>
+          <div class="company"><span class="company-mark">T</span>Т-Банк</div>
+          <h3>Художник концепт-арта</h3>
+          <div class="place">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" aria-hidden="true"><path d="M12 21s7-6.2 7-11.5A7 7 0 0 0 5 9.5C5 14.8 12 21 12 21Z"/><circle cx="12" cy="9.5" r="2.5"/></svg>
+            Москва, формат работы
+          </div>
+          <div class="meta"><span>280 000 ₽</span><span>Фулл-тайм</span><span>Junior</span></div>
+        </article>
+
+        <article class="job-card">
+          <span class="badge">Новая</span>
+          <div class="company"><span class="company-mark">T</span>Apple</div>
+          <h3>UI/UX Дизайнер</h3>
+          <div class="place">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" aria-hidden="true"><path d="M12 21s7-6.2 7-11.5A7 7 0 0 0 5 9.5C5 14.8 12 21 12 21Z"/><circle cx="12" cy="9.5" r="2.5"/></svg>
+            Москва, формат работы
+          </div>
+          <div class="meta"><span>280 000 ₽</span><span>Фулл-тайм</span><span>Junior</span></div>
+        </article>
+
+        <article class="job-card">
+          <div class="company"><span class="company-mark">T</span>ВТБ</div>
+          <h3>Графический дизайнер</h3>
+          <div class="place">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" aria-hidden="true"><path d="M12 21s7-6.2 7-11.5A7 7 0 0 0 5 9.5C5 14.8 12 21 12 21Z"/><circle cx="12" cy="9.5" r="2.5"/></svg>
+            Москва, формат работы
+          </div>
+          <div class="meta"><span>280 000 ₽</span><span>Фулл-тайм</span><span>Junior</span></div>
+        </article>
+
+        <article class="job-card">
+          <div class="company"><span class="company-mark">T</span>Т-Банк</div>
+          <h3>Промышленный дизайнер</h3>
+          <div class="place">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" aria-hidden="true"><path d="M12 21s7-6.2 7-11.5A7 7 0 0 0 5 9.5C5 14.8 12 21 12 21Z"/><circle cx="12" cy="9.5" r="2.5"/></svg>
+            Москва, формат работы
+          </div>
+          <div class="meta"><span>280 000 ₽</span><span>Фулл-тайм</span><span>Junior</span></div>
+        </article>
+
+        <article class="job-card">
+          <div class="company"><span class="company-mark">T</span>Apple</div>
+          <h3>Диджитал дизайнер</h3>
+          <div class="place">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" aria-hidden="true"><path d="M12 21s7-6.2 7-11.5A7 7 0 0 0 5 9.5C5 14.8 12 21 12 21Z"/><circle cx="12" cy="9.5" r="2.5"/></svg>
+            Москва, формат работы
+          </div>
+          <div class="meta"><span>280 000 ₽</span><span>Фулл-тайм</span><span>Junior</span></div>
+        </article>
+
+        <article class="job-card">
+          <div class="company"><span class="company-mark">T</span>ВТБ</div>
+          <h3>Художник концепт-арта</h3>
+          <div class="place">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" aria-hidden="true"><path d="M12 21s7-6.2 7-11.5A7 7 0 0 0 5 9.5C5 14.8 12 21 12 21Z"/><circle cx="12" cy="9.5" r="2.5"/></svg>
+            Москва, формат работы
+          </div>
+          <div class="meta"><span>280 000 ₽</span><span>Фулл-тайм</span><span>Junior</span></div>
+        </article>
+
+        <article class="job-card">
+          <div class="company"><span class="company-mark">T</span>Т-Банк</div>
+          <h3>Промышленный дизайнер</h3>
+          <div class="place">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" aria-hidden="true"><path d="M12 21s7-6.2 7-11.5A7 7 0 0 0 5 9.5C5 14.8 12 21 12 21Z"/><circle cx="12" cy="9.5" r="2.5"/></svg>
+            Москва, формат работы
+          </div>
+          <div class="meta"><span>280 000 ₽</span><span>Фулл-тайм</span><span>Junior</span></div>
+        </article>
+
+        <article class="job-card">
+          <div class="company"><span class="company-mark">T</span>Т-Банк</div>
+          <h3>Промышленный дизайнер</h3>
+          <div class="place">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" aria-hidden="true"><path d="M12 21s7-6.2 7-11.5A7 7 0 0 0 5 9.5C5 14.8 12 21 12 21Z"/><circle cx="12" cy="9.5" r="2.5"/></svg>
+            Москва, формат работы
+          </div>
+          <div class="meta"><span>280 000 ₽</span><span>Фулл-тайм</span><span>Junior</span></div>
+        </article>
+
+        <article class="job-card">
+          <div class="company"><span class="company-mark">T</span>Т-Банк</div>
+          <h3>Промышленный дизайнер</h3>
+          <div class="place">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" aria-hidden="true"><path d="M12 21s7-6.2 7-11.5A7 7 0 0 0 5 9.5C5 14.8 12 21 12 21Z"/><circle cx="12" cy="9.5" r="2.5"/></svg>
+            Москва, формат работы
+          </div>
+          <div class="meta"><span>280 000 ₽</span><span>Фулл-тайм</span><span>Junior</span></div>
+        </article>
+
+        <article class="job-card">
+          <div class="company"><span class="company-mark">T</span>Т-Банк</div>
+          <h3>Промышленный дизайнер</h3>
+          <div class="place">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" aria-hidden="true"><path d="M12 21s7-6.2 7-11.5A7 7 0 0 0 5 9.5C5 14.8 12 21 12 21Z"/><circle cx="12" cy="9.5" r="2.5"/></svg>
+            Москва, формат работы
+          </div>
+          <div class="meta"><span>280 000 ₽</span><span>Фулл-тайм</span><span>Junior</span></div>
+        </article>
+
+        <article class="job-card">
+          <div class="company"><span class="company-mark">T</span>ВТБ</div>
+          <h3>Графический дизайнер</h3>
+          <div class="place">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" aria-hidden="true"><path d="M12 21s7-6.2 7-11.5A7 7 0 0 0 5 9.5C5 14.8 12 21 12 21Z"/><circle cx="12" cy="9.5" r="2.5"/></svg>
+            Москва, формат работы
+          </div>
+          <div class="meta"><span>280 000 ₽</span><span>Фулл-тайм</span><span>Junior</span></div>
+        </article>
+
+        <article class="job-card">
+          <div class="company"><span class="company-mark">T</span>ВТБ</div>
+          <h3>Графический дизайнер</h3>
+          <div class="place">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" aria-hidden="true"><path d="M12 21s7-6.2 7-11.5A7 7 0 0 0 5 9.5C5 14.8 12 21 12 21Z"/><circle cx="12" cy="9.5" r="2.5"/></svg>
+            Москва, формат работы
+          </div>
+          <div class="meta"><span>280 000 ₽</span><span>Фулл-тайм</span><span>Junior</span></div>
+        </article>
+
+      </div>
+    </main>
+
+    <footer class="bottom">
+      <i class="shape shape-pink" style="left:0;top:182px;width:120px;height:120px;clip-path:polygon(100% 0,0 100%,0 40%)"></i>
+      <i class="shape shape-sky"  style="left:-60px;bottom:-60px;width:260px;height:200px;border-radius:50%"></i>
+      <i class="shape shape-mint" style="left:130px;bottom:-30px;width:280px;height:120px;border-radius:30px 30px 0 0;border:3px solid #7bffd9"></i>
+      <i class="shape shape-pink" style="left:380px;bottom:-40px;width:420px;height:250px;clip-path:polygon(0 100%,18% 0,70% 12%,100% 100%)"></i>
+      <i class="shape shape-sky"  style="left:40%;bottom:-170px;width:300px;height:300px;border-radius:50%;border:4px solid #8fc0ff"></i>
+      <i class="shape shape-pink" style="left:66%;bottom:-20px;width:230px;height:240px;clip-path:polygon(40% 0,100% 100%,0 100%)"></i>
+      <i class="shape shape-mint" style="right:-10px;bottom:-30px;width:190px;height:170px;border-radius:30px;transform:rotate(12deg)"></i>
+
+      <a class="btn btn-primary" href="#">Опубликовать вакансию</a>
+
+      <div class="bottom-links">
+        <a href="#">Вакансии</a>
+        <a href="#">Работодателям</a>
+        <a href="#">Telegram</a>
+        <a href="#">Техподдержка</a>
+      </div>
+
+      <div class="wordmark">mattee</div>
+      <div class="copyright">© 2025</div>
+    </footer>
+
+  </div>
+</body>
+</html>
